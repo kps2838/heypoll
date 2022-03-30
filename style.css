@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: auto;
+    margin: 0;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+}
+
+h2{
+    font-weight: 500;
+}
+
+p{
+    font-size: 28px; 
+}
+
+#header{
+    box-sizing: border-box;
+    height: 100px;
+    background: #F8F8F9;
+    padding-top: 28px;
+    padding-bottom: 28.63px;
+}
+
+#header img{
+    width: 220px;
+}
+
+#section1 {
+    height: 640px;
+    background-color: #7031FF;
+    color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+} 
+
+#section1 h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#section1 p{
+    margin-bottom: 36px;
+}
+
+#section1 img{
+    width: 441px;
+    display: block;
+    margin: 0 auto;
+}
+
+#section2 {
+    height: 640px;
+    background: #F8F8F9;
+    color: #333;
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-bottom: 0;
+}
+
+#section2 h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#section2 p{
+    margin-bottom: 76px;
+}
+
+#section2 img{
+    width: 503px;
+    display: block;
+    margin: 0 auto;
+}
+
+#section3 {
+    height: 640px;
+    background: #FF75AC;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 27.96px;
+    box-sizing: border-box;
+}
+
+#section3 h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#section3 p{
+    margin-bottom: 50px;
+}
+
+#section3 img{
+    width: 789px;
+    display: block;
+    margin: 0 auto;
+}
+
+#footer{
+    color: #fff;
+    height: 220px;
+    background: #999;
+    padding-top: 37px;
+    padding-bottom: 27.87px;
+}
+
+#footer h2{
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+#footer a img {
+    width: 200px;
+}
+
+.brandcolor{
+    color: #7031FF;
+}
