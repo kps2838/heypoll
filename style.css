@@ -1,10 +1,17 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
+
+html{
+    max-width: 767px;
+    margin: 0 auto;
+}
+
+
 body{
-    width: auto;
-    margin: 0;
+    max-width: 100%;
     text-align: center;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
@@ -15,107 +22,85 @@ h2{
 }
 
 p{
-    font-size: 28px; 
+    font-size: 18px; 
 }
 
 #header{
-    box-sizing: border-box;
-    height: 100px;
+    width: 100%;
+    height: 65px;
     background: #F8F8F9;
-    padding-top: 28px;
-    padding-bottom: 28.63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#header img{
-    width: 220px;
+#section{
+    width: 100%;
+    height: 460px;
+    padding-top: 70px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
 
-#section1 {
-    height: 640px;
+.survey {
     background-color: #7031FF;
     color: #ffffff;
-    padding-top: 60px;
-    padding-bottom: 0;
-    box-sizing: border-box;
 } 
 
-#section1 h2{
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-
-#section1 p{
-    margin-bottom: 36px;
-}
-
-#section1 img{
-    width: 441px;
-    display: block;
-    margin: 0 auto;
-}
-
-#section2 {
-    height: 640px;
+.poll {
     background: #F8F8F9;
     color: #333;
-    box-sizing: border-box;
-    padding-top: 60px;
-    padding-bottom: 0;
 }
 
-#section2 h2{
-    font-size: 50px;
-    margin-bottom: 30px;
-}
 
-#section2 p{
-    margin-bottom: 76px;
-}
-
-#section2 img{
-    width: 503px;
-    display: block;
-    margin: 0 auto;
-}
-
-#section3 {
-    height: 640px;
+.gift {
     background: #FF75AC;
     color: #fff;
-    padding-top: 60px;
-    padding-bottom: 27.96px;
-    box-sizing: border-box;
 }
 
-#section3 h2{
-    font-size: 50px;
-    margin-bottom: 30px;
+
+#section h2{
+    font-size: 28px;
+    margin-bottom: 15px;
 }
 
-#section3 p{
-    margin-bottom: 50px;
+
+#section img{
+    width: 320px;
 }
 
-#section3 img{
-    width: 789px;
-    display: block;
-    margin: 0 auto;
+.survey p{
+    margin-bottom: 27px;
 }
+
+.poll p{
+    margin-bottom: 85px;
+}
+
+.gift{
+    padding-bottom: 73px;
+}
+
+.gift p{
+    margin-bottom: 72px;
+}
+
 
 #footer{
+    width: 100%;
     color: #fff;
-    height: 220px;
+    height: 130px;
     background: #999;
-    padding-top: 37px;
-    padding-bottom: 27.87px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 #footer h2{
-    font-size: 36px;
-    margin-bottom: 25px;
-}
-#footer a img {
-    width: 200px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .brandcolor{
